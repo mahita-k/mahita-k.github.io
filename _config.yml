@@ -1,0 +1,11 @@
+title: Mahitha Kallakuri
+tagline: Interesting olympiad math problems
+
+description: Let us explore interesting ways to solve olympiad math problems.
+theme: minima
+
+header_pages:
+  - about.md
+  - index.md
+  - problems.md
+  - contact.md
