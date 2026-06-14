@@ -1,0 +1,29 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+@import "minima";
+
+// --- TOP MENU NAVIGATION BAR BACKGROUND & PADDING ---
+.site-header {
+  background-color: #f8f9fa;       // Soft, modern background color
+  padding-top: 15px;               // Adds breathing room above the menu
+  padding-bottom: 15px;            // Adds breathing room below the menu
+  border-top: none;                // Removes Minima's default top colored line
+  border-bottom: 1px solid #eef2f5;// Adds a crisp, elegant bottom boundary line
+}
+
+// Use "Playfair Display" for a classy, literary Website Title
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #111111 !important;        // Keeps it crisp on the new background color
+}
+
+// Use "Inter" for clean, punchy modern Page Titles
+.post-title, .page-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
