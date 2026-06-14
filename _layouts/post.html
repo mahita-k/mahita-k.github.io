@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %d, %Y" }}
+      </time>
+      
+      {% if page.tags.size > 0 %}
+        • <span class="post-tags">
+          {% for tag in page.tags %}
+            <a href="{{ '/archive.html' | relative_url }}#{{ tag | slugify }}" style="background: #eceff1; padding: 2px 8px; border-radius: 3px; font-size: 12px; margin-right: 5px; text-decoration: none; color: #555;">
+              #{{ tag }}
+            </a>
+          {% endfor %}
+        </span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
