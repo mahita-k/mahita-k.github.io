@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Let's start ..."
-tags: [Geometry, Conics]
+title: Solving a Problem on Hyperbolas Using Similar Triangles 
+tags: [Geometry, Conics, Similar Triangles]
 ---
-
-
-[Solving a Problem on Hyperbola using Similar Triangles.pdf](https://github.com/user-attachments/files/28923799/Solving.a.Problem.on.Hyperbola.using.Similar.Triangles.pdf)
+<iframe src="{{ site.baseurl }}/assets/hyperbola1.pdf" width="100%" height="600px" style="border: none;">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/hyperbola1.pdf">Download PDF</a>
+</iframe>
